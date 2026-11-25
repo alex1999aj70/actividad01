@@ -26,7 +26,6 @@ Se leyó el tema de introducción a la IA y se investigaron las definiciones de 
 
 ## Liga del video
 
-[pegar aquí la liga de YouTube]
 
 ## Pendientes antes de entregar
 
