@@ -1,0 +1,61 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+
+\title{Estado del arte de la inteligencia artificial: de los sistemas expertos a los agentes basados en modelos de lenguaje}
+\author{[Nombre completo] \\ Facultad de Ciencias de la Informaci\'on, UNACAR \\ \texttt{[correo]}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Este art\'iculo resume el estado actual de la inteligencia artificial (IA) a partir de fuentes recientes. Parte de los sistemas expertos, que dominaron la IA aplicada en los a\~nos ochenta, y describe c\'omo las limitaciones de la IA basada en reglas llevaron al aprendizaje autom\'atico y a los sistemas actuales basados en modelos de lenguaje. Se revisan los resultados de un estudio sobre agentes en producci\'on y el panorama del informe AI Index 2026, y se comentan los retos pendientes: confiabilidad, transparencia y costo ambiental.
+\end{abstract}
+
+\section{Introducci\'on}
+La inteligencia artificial se ha definido como ``la ciencia y la ingenier\'ia de hacer m\'aquinas inteligentes, especialmente programas de c\'omputo inteligentes'' \cite{mccarthy2007}. En el curso se trabaja con una definici\'on m\'as sencilla: la habilidad de un individuo para resolver problemas de su entorno. El campo naci\'o formalmente en el taller de Dartmouth de 1956 \cite{ibm}. Este documento describe el recorrido desde las primeras t\'ecnicas simb\'olicas hasta la IA actual.
+
+\section{Antecedentes: la IA simb\'olica y los sistemas expertos}
+Un sistema experto es un sistema de IA que emula la toma de decisiones de un experto humano, razonando sobre conocimiento representado sobre todo con reglas del tipo si-entonces \cite{wikiES}. Su arquitectura se compone de una base de conocimiento, un motor de inferencia y una interfaz, y puede incluir un m\'odulo de explicaci\'on \cite{wikiES}.
+
+Los primeros sistemas, como DENDRAL y MYCIN, surgieron entre las d\'ecadas de 1960 y 1970. En 1980, el sistema XCON entr\'o en uso en Digital Equipment Corporation para configurar computadoras VAX y lleg\'o a tener unas 2\,500 reglas; se estim\'o que ahorraba unos 25 millones de d\'olares al a\~no en 1986 \cite{xcon}. En los a\~nos ochenta, m\'as de dos tercios de las empresas del Fortune 500 usaban o desarrollaban sistemas expertos \cite{history}.
+
+Sus limitaciones fueron claras: es dif\'icil obtener el conocimiento de los expertos, el conocimiento es superficial y de dominio cerrado, y las bases de reglas grandes son dif\'iciles de verificar y de integrar con otros sistemas \cite{wikiES}. En los a\~nos noventa el t\'ermino ``sistema experto'' dej\'o de usarse, aunque las ideas continuaron en los motores de reglas de negocio \cite{wikiES}.
+
+\section{Del conocimiento escrito a mano al aprendizaje}
+Frente a la dificultad de escribir el conocimiento a mano, el aprendizaje autom\'atico obtiene los patrones directamente de los datos. Un hito de esta transici\'on fue la publicaci\'on del algoritmo de retropropagaci\'on en 1986, que mostr\'o que las redes neuronales de varias capas se pod\'ian entrenar de forma eficaz \cite{history}. [\textbf{Pendiente:} ampliar esta secci\'on con el aprendizaje profundo y los modelos de lenguaje, citando fuentes del curso.]
+
+\section{La IA actual: agentes basados en modelos de lenguaje}
+Una tendencia reciente son los agentes basados en modelos de lenguaje, que combinan un modelo con herramientas para realizar tareas de varios pasos. Pan et al. \cite{pan2026} presentan el primer estudio sistem\'atico de estos agentes en producci\'on, con 20 estudios de caso y una encuesta a 306 profesionales, de los cuales 86 trabajaban con sistemas desplegados en 26 dominios. Sus hallazgos principales son:
+\begin{itemize}
+  \item Las organizaciones los usan sobre todo para aumentar la productividad (80.3\,\% de los encuestados).
+  \item Los agentes en producci\'on tienden a ser simples y controlables: 68\,\% ejecuta menos de diez pasos antes de una intervenci\'on humana, y 80\,\% de los casos usa flujos estructurados.
+  \item 17 de los 20 casos usan modelos de c\'odigo cerrado, y 74\,\% se apoya en evaluaci\'on con personas.
+  \item La confiabilidad es el principal reto de desarrollo.
+\end{itemize}
+Es interesante que estos agentes, en la pr\'actica, se parecen a los sistemas expertos en un punto: funcionan mejor cuando su alcance es acotado y est\'an supervisados.
+
+\section{Panorama general}
+El informe AI Index 2026 de Stanford HAI, publicado en abril de 2026, describe un campo que alcanza capacidades notables y que al mismo tiempo plantea preguntas sobre el costo ambiental, la transparencia y qui\'enes se benefician \cite{aiindex}. [\textbf{Pendiente:} agregar cifras concretas del informe completo.]
+
+\section{Retos}
+Los retos identificados en las fuentes revisadas son la confiabilidad de los sistemas, la evaluaci\'on (muchos casos no usan pruebas est\'andar), la transparencia y el costo ambiental. Tambi\'en persiste, como en los sistemas expertos, la necesidad de explicar las decisiones.
+
+\section{Conclusiones}
+La IA pas\'o de sistemas basados en conocimiento escrito por expertos a sistemas que aprenden de datos. Aun as\'i, los problemas de fondo (conseguir buen conocimiento, explicar las decisiones y verificar su confiabilidad) siguen vigentes. [\textbf{Pendiente:} agregar una conclusi\'on propia.]
+
+\begin{thebibliography}{9}
+\bibitem{mccarthy2007} J. McCarthy. \emph{What is Artificial Intelligence?} Revisado el 12 de noviembre de 2007. \url{https://www-formal.stanford.edu/jmc/whatisai/}
+\bibitem{ibm} IBM. Historia de la inteligencia artificial. \url{https://www.ibm.com/br-pt/think/topics/history-of-artificial-intelligence}
+\bibitem{wikiES} Wikipedia. Expert system. \url{https://en.wikipedia.org/wiki/Expert_system}
+\bibitem{xcon} Wikipedia. Xcon. \url{https://en.wikipedia.org/wiki/Xcon}
+\bibitem{history} History of AI. Expert systems era (1980--1987). \url{https://zsjunai.github.io/history-of-ai/en/annals/04-expert-systems}
+\bibitem{pan2026} M. Z. Pan et al. \emph{Measuring Agents in Production}. arXiv:2512.04123, versi\'on de junio de 2026 (ICML 2026). \url{https://arxiv.org/abs/2512.04123}
+\bibitem{aiindex} Stanford HAI. \emph{The 2026 AI Index Report}. Abril de 2026. \url{https://hai.stanford.edu/ai-index/2026-ai-index-report}
+\end{thebibliography}
+
+\end{document}
