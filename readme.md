@@ -18,7 +18,7 @@ Se leyó el tema de introducción a la IA y se investigaron las definiciones de 
 | - | ---------- | -------------- |
 | 1 | `readme.md` con datos de los integrantes y descripción | Este archivo |
 | 2 | Resultados del punto 2 (definiciones, mapa mental, películas, lectura) en PDF | [`02-resultados-punto2.pdf`](02-resultados-punto2.pdf) |
-| 2 | Contenido del mapa mental (código Mermaid para Excalidraw) | [`mapa-mental.md`](mapa-mental.md) |
+| 2 | Contenido del mapa mental (código Mermaid para Excalidraw) | [`mapa-mental.md`](mapa-mental.md) (https://excalidraw.com/#json=Uy83Zjo1ryccrWGgpiegG,XT3zCJpgSQiqqp5-RPSt8A) |
 | 3 | Resultados del punto 4 (presentación de sistemas expertos) en PDF | [`04-presentacion-sistemas-expertos.pdf`](04-presentacion-sistemas-expertos.pdf) |
 | 4 | Resultado del punto 5: guion del video y liga a YouTube | [`05-guion-video.md`](05-guion-video.md) |
 | 5 | Liga al artículo en Overleaf | [(https://www.overleaf.com/project/6b0732f0d63e1c61d45f3d2a/share#018ff9a0749beb21f4e8a1a94aabc5ae133ed78cf72eb237)] (fuente: [`06-articulo-estado-del-arte.tex`](06-articulo-estado-del-arte.tex)) |
