@@ -29,9 +29,5 @@ Se leyó el tema de introducción a la IA y se investigaron las definiciones de 
 
 ## Pendientes antes de entregar
 
-- [ ] Poner nombres y matrículas en este archivo, en el PDF del punto 2, en la presentación y en el guion.
 - [ ] Grabar el video siguiendo el guion y subirlo a YouTube.
-- [ ] Subir el artículo a Overleaf y pegar la liga.
 - [ ] Generar los resúmenes del punto 7 con NotebookLM y guardarlos como archivos `.md`.
-- [ ] Armar el mapa mental en Excalidraw.
-- [ ] Ver las películas y escribir los comentarios del punto 2.5.
