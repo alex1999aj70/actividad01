@@ -2,10 +2,10 @@
 
 ## Datos de los integrantes
 
-- **Integrante(s):** [Nombre completo]
-- **Matrícula:** [Matrícula]
+- **Integrante(s):** ALEJANDRO DEL JESUS DIAZ LOPEZ
+- **Matrícula:** 191087
 - **Materia:** Programación avanzada (IA)
-- **Profesor:** [Nombre del profesor]
+- **Profesor:** Jesús Alejandro Flores Hernández
 - **Facultad:** Facultad de Ciencias de la Información, UNACAR
 
 ## Descripción de la tarea
