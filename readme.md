@@ -24,10 +24,4 @@ Se leyó el tema de introducción a la IA y se investigaron las definiciones de 
 | 5 | Liga al artículo en Overleaf | [(https://www.overleaf.com/project/6b0732f0d63e1c61d45f3d2a/share#018ff9a0749beb21f4e8a1a94aabc5ae133ed78cf72eb237)] (fuente: [`06-articulo-estado-del-arte.tex`](06-articulo-estado-del-arte.tex)) |
 | 6 | Resultado del punto 7: resúmenes en Markdown | Pendiente: `07-resumen-ingenieria-del-conocimiento.md` y `07-resumen-sistemas-expertos-basados-en-reglas.md` (se generan con NotebookLM) |
 
-## Liga del video
 
-
-## Pendientes antes de entregar
-
-- [ ] Grabar el video siguiendo el guion y subirlo a YouTube.
-- [ ] Generar los resúmenes del punto 7 con NotebookLM y guardarlos como archivos `.md`.
