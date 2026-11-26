@@ -17,7 +17,7 @@ Se leyó el tema de introducción a la IA y se investigaron las definiciones de 
 | # | Entregable | Archivo / liga |
 | - | ---------- | -------------- |
 | 1 | `readme.md` con datos de los integrantes y descripción | Este archivo |
-| 2 | Resultados del punto 2 (definiciones, mapa mental, películas, lectura) en PDF | [`02-resultados-punto2.pdf`](02-resultados-punto2.pdf) |
+| 2 | Resultados del punto 2 (definiciones, mapa mental, películas, lectura) en PDF | [`02-resultados-punto2.pdf`](Actividad 1 - Resultados del punto 2.pdf) |
 | 2 | Contenido del mapa mental (código Mermaid para Excalidraw) | [`mapa-mental.md`](mapa-mental.md) (https://excalidraw.com/#json=Uy83Zjo1ryccrWGgpiegG,XT3zCJpgSQiqqp5-RPSt8A) |
 | 3 | Resultados del punto 4 (presentación de sistemas expertos) en PDF | [`04-presentacion-sistemas-expertos.pdf`](04-presentacion-sistemas-expertos.pdf) |
 | 4 | Resultado del punto 5: guion del video y liga a YouTube | [`05-guion-video.md`](05-guion-video.md) |
