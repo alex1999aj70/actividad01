@@ -22,6 +22,6 @@ Se leyó el tema de introducción a la IA y se investigaron las definiciones de 
 | 3 | Resultados del punto 4 (presentación de sistemas expertos) en PDF | [`04-presentacion-sistemas-expertos.pdf`](04-presentacion-sistemas-expertos.pdf) |
 | 4 | Resultado del punto 5: guion del video y liga a YouTube | [`05-guion-video.md`](05-guion-video.md) |
 | 5 | Liga al artículo en Overleaf | [(https://www.overleaf.com/project/6b0732f0d63e1c61d45f3d2a/share#018ff9a0749beb21f4e8a1a94aabc5ae133ed78cf72eb237)] (fuente: [`06-articulo-estado-del-arte.tex`](06-articulo-estado-del-arte.tex)) |
-| 6 | Resultado del punto 7: resúmenes en Markdown | Pendiente: `07-resumen-ingenieria-del-conocimiento.md` y `07-resumen-sistemas-expertos-basados-en-reglas.md` (se generan con NotebookLM) |
+| 6 | Resultado del punto 7: resúmenes en Markdown |  `07-resumen-ingenieria-del-conocimiento.md` y `07-resumen-sistemas-expertos-basados-en-reglas.md` (se generan con NotebookLM) |
 
 
